@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2% 0;
+	font-family: "Helvetica Neue";
+	font-size: 16px;
+	background: #ddd;
+}
+#foto{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#curriculo {
+background: #ffffff;
+width: 60%;
+height: auto;
+margin: auto;
+border-radius: 15px;
+}
+
+h1 {
+    color: rgb(110, 60, 6);
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+h2 {
+    font-size: 20px;
+    color: rgb(140, 76, 8);
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-top: solid 1px gray;
+    
+}
+li{
+    margin-left: 15px;
+    color:#14059e;
+    margin-bottom: 10px;
+}
+#curriculo p{
+    font-family: "Helvetica Neue";
+    color: #0c038f;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+
+}
+ol{
+    font-family: "Helvetica Neue";
+    color: #1208a3;
+    font-size: 14px;
+    line-height: 1.0em;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: justify;
+}
+ul {
+    font-family: "Helvetica Neue";
+    color: #1208a3;
+    font-size: 14px;
+    line-height: 1.0em;
+    margin-left: 30px;
+    margin-bottom: 10px;
+   
+}
+.negrito{
+    font-weight: bold;
+}
+
