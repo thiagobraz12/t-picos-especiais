@@ -1,0 +1,22 @@
+.galery {
+    width: 640px;
+    height: 360px;
+    background-color: rgb(244, 235, 245);
+    overflow: hidden;
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 19.9%;
+}
+
+div1 {
+    margin-left: auto;
+    margin-right: auto;
+}
