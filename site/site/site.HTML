@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor Arte Burger</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Imagens/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- Cabeçalho com links de navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cardápio">Cardápio</a></li>
+                <li><a href="#quem-somos">Quem Somos Nós</a></li>
+                <li><a href="#Fale Conosco">Fale Conosco</a></li>
+                <li><a href="#carrinho" id="carrinho-link">Carrinho (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Home -->
+    <section id="home">
+        <div class="banner">
+            <img src="Imagens/Banner de lanche hambúrguer fogo moderno vermelho.png" alt="Imagem do Banner">
+            <img src="Imagens/Burger Do Dia Promoção Instagram Post Laranja Marrom Branco.png" alt="Oferta do Dia 1">
+            <video src="Imagens/Burguer Artesanal na Brasa para Hamburgueria Preto Story do Instagram Animado.mp4" autoplay muted loop></video>
+            <video src="Imagens/Vídeo para Reels do Instagram hamburgueria Partiu Burger.mp4" autoplay muted loop></video>
+        </div>
+        <h1>Bem-vindo ao Nosso Site</h1>
+        <p>Nascemos de um sonho não apenas de matarmos a fome de nossos clientes, 
+            mais de levar a felicidade e sabor em uma só mordida. .</p>
+    </section>
+
+    <!-- Seção Menu -->
+    <section id="cardápio">
+        <h1>Nosso Cardápio</h1>
+        <div class="menu-grid">
+            <!-- Caixa de lanche 1 -->
+            <div class="menu-item">
+                <img src="Imagens/hamb-1.png" alt="Lanche 1" class="menu-img">
+                <div class="menu-details">
+                    <h3>Hambúrguer Clássico</h3>
+                    <p>Um hambúrguer suculento de carne angus grelhada, coberto com queijo cheddar derretido, alface crocante, tomate fresco e cebola roxa, servido em um pão de brioche tostado. O clássico que nunca sai de moda.</p>
+                    <p class="price">R$ 20,00</p>
+                    <button class="add-to-cart" data-item="Lanche 1" data-price="20.00" data-img="Imagens/hamb-1.png">Adicionar ao Carrinho 🛒</button>
+                </div>
+            </div>
+            <!-- Caixa de lanche 2 -->
+            <div class="menu-item">
+                <img src="Imagens/hamb-2.png" alt="Lanche 2" class="menu-img">
+                <div class="menu-details">
+                    <h3>Hambúrguer BBQ Cowboy</h3>
+                    <p>Uma explosão de sabores do oeste! Este hambúrguer apresenta uma carne angus grelhada coberta com bacon defumado, cebola caramelizada, queijo pepper jack picante e um toque generoso de molho barbecue, tudo servido em um pão de cerveja artesanal.</p>
+                    <p class="price">R$ 25,00</p>
+                    <button class="add-to-cart" data-item="Lanche 2" data-price="25.00" data-img="Imagens/hamb-2.png">Adicionar ao Carrinho 🛒</button>
+                </div>
+            </div>
+            <!-- Caixa de lanche 3 -->
+            <div class="menu-item">
+                <img src="Imagens/hamb-3.png" alt="Lanche 3" class="menu-img">
+                <div class="menu-details">
+                    <h3>Hambúrguer Vegano Mediterrâneo</h3>
+                    <p>Para os amantes de vegetais! Um hambúrguer de grão-de-bico e quinoa, temperado com ervas mediterrâneas, coberto com homus cremoso, tomate seco, rúcula fresca e azeitonas pretas, servido em um pão de multigrãos tostado.</p>
+                    <p class="price">R$ 22,00</p>
+                    <button class="add-to-cart" data-item="Lanche 3" data-price="22.00" data-img="Imagens/hamb-3.png">Adicionar ao Carrinho 🛒</button>
+                </div>
+            </div>
+            <!-- Caixa de lanche 4 -->
+            <div class="menu-item">
+                <img src="Imagens/hamb-4.png" alt="Lanche 4" class="menu-img">
+                <div class="menu-details">
+                    <h3>Hambúrguer Picante Mexicano</h3>
+                    <p>Uma explosão de sabor latino! Este hambúrguer apresenta carne angus grelhada coberta com guacamole fresco, jalapeños picantes, queijo pepper jack derretido, pico de gallo e uma pitada de pimenta chipotle, tudo servido em um pão de milho tostado.</p>
+                    <p class="price">R$ 30,00</p>
+                    <button class="add-to-cart" data-item="Lanche 4" data-price="30.00" data-img="Imagens/hamb-4.png">Adicionar ao Carrinho 🛒</button>
+                </div>
+            </div>
+            <!-- Caixa de lanche 5 -->
+            <div class="menu-item">
+                <img src="Imagens/hamb-5.png" alt="Lanche 5" class="menu-img">
+                <div class="menu-details">
+                    <h3>Hambúrguer de Frango Caprese5</h3>
+                    <p>Uma versão leve e fresca! Um hambúrguer de peito de frango grelhado, coberto com mozarela de búfala fresca, tomate fatiado, manjericão fresco e um fio de redução de balsâmico, tudo servido em um pão ciabatta tostado.</p>
+                    <p class="price">R$ 27,00</p>
+                    <button class="add-to-cart" data-item="Lanche 5" data-price="27.00" data-img="Imagens/hamb-5.png">Adicionar ao Carrinho 🛒</button>
+                </div>
+            </div>
+            <!-- Caixa de lanche 6 -->
+            <div class="menu-item">
+                <img src="Imagens/hamb-6.png" alt="Lanche 6" class="menu-img">
+                <div class="menu-details">
+                    <h3>Hambúrguer de Cordeiro Grego</h3>
+                    <p>Uma aventura culinária do Mediterrâneo! Este hambúrguer apresenta cordeiro temperado com especiarias gregas, coberto com tzatziki cremoso, cebola roxa em conserva, tomate e folhas de alface, tudo servido em um pão pita levemente grelhado.</p>
+                    <p class="price">R$ 24,00</p>
+                    <button class="add-to-cart" data-item="Lanche 6" data-price="24.00" data-img="Imagens/hamb-6.png">Adicionar ao Carrinho 🛒</button>
+                </div>
+            </div>
+            <!-- Caixa de lanche 7 -->
+            <div class="menu-item">
+                <img src="Imagens/hamb-7.png" alt="Lanche 7" class="menu-img">
+                <div class="menu-details">
+                    <h3>Hambúrguer Surf & Turf</h3>
+                    <p>O melhor dos dois mundos! Um hambúrguer de carne angus grelhada, coberto com carne de caranguejo desfiada, queijo suíço derretido, alface crocante, tomate e um toque de maionese de alho, tudo servido em um pão de brioche tostado.</p>
+                    <p class="price">R$ 29,00</p>
+                    <button class="add-to-cart" data-item="Lanche 7" data-price="29.00" data-img="Imagens/hamb-7.png">Adicionar ao Carrinho 🛒</button>
+                </div>
+            </div>
+            <!-- Caixa de lanche 8 -->
+            <div class="menu-item">
+                <img src="Imagens/hamb-8.png" alt="Lanche 8" class="menu-img">
+                <div class="menu-details">
+                    <h3>Hambúrguer de Portobello Grelhado</h3>
+                    <p>Uma opção vegetariana robusta! Um grande cogumelo Portobello grelhado, marinado em temperos aromáticos, coberto com queijo gorgonzola derretido, cebolas caramelizadas, rúcula fresca e molho balsâmico, tudo servido em um pão de focaccia tostado.</p>
+                    <p class="price">R$ 26,00</p>
+                    <button class="add-to-cart" data-item="Lanche 8" data-price="26.00" data-img="Imagens/hamb-8.png">Adicionar ao Carrinho 🛒</button>
+                </div>
+            </div>
+            <!-- Caixa de Bebida 1 -->
+            <div class="menu-item">
+                <img src="Imagens/refri-1.png" alt="Bebida 1" class="menu-img">
+                <div class="menu-details">
+                    <h3>Latinha Coca-Cola 350ml</h3>
+                    <p>A clássica e refrescante Coca-Cola, perfeita para acompanhar qualquer hambúrguer.</p>
+                    <p class="price">R$ 8,00</p>
+                    <button class="add-to-cart" data-item="Bebida 1" data-price="8.00" data-img="Imagens/refri-1.png">Adicionar ao Carrinho 🛒</button>
+                </div>
+            </div>
+            <!-- Caixa de Bebida 2 -->
+            <div class="menu-item">
+                <img src="Imagens/refri-2.png" alt="Bebida 2" class="menu-img">
+                <div class="menu-details">
+                    <h3>Latinha Guaraná Antarctica 350ml</h3>
+                    <p>O sabor único e refrescante do Guaraná Antarctica, uma opção brasileira deliciosa.</p>
+                    <p class="price">R$ 9,00</p>
+                    <button class="add-to-cart" data-item="Bebida 2" data-price="9.00" data-img="Imagens/refri-2.png">Adicionar ao Carrinho 🛒</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Quem Somos Nós -->
+    <section id="quem-somos" class="fullscreen-image">
+        <h1>Quem Somos Nós</h1>
+        <img src="Imagens/Quem somos.png" alt="Imagem em Tela Cheia">
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="Fale Conosco">
+        <h1>Fale Conosco</h1>
+        <div class="contact-box">
+            <p>Rua: Rio da Paz, 957 - Cidade: Ji-Paraná, RO</p>
+            <p>Contatos: (69) 9 9999-9999 / 9 9999-9999</p>
+            <p>Seg. a Dom. - 18:00 às 22:00</p>
+        </div>
+    </section>
+
+    <!-- Seção Carrinho -->
+    <section id="carrinho">
+        <h1>Seu Carrinho</h1>
+        <ul id="cart-items">
+            <li>Seu carrinho está vazio.</li>
+        </ul>
+        <button id="clear-cart">Limpar Carrinho</button>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Sabor Arte Burger. Todos os direitos reservados Leidervan, Thiago e Miriam.</p>
+    </footer>
+
+    <script>
+        // Script para mudar os banners de forma contínua
+        const banners = document.querySelectorAll('.banner img, .banner video');
+        let currentBannerIndex = 0;
+
+        function showNextBanner() {
+            banners[currentBannerIndex].style.display = 'none';
+            currentBannerIndex = (currentBannerIndex + 1) % banners.length;
+            banners[currentBannerIndex].style.display = 'block';
+        }
+
+        setInterval(showNextBanner, 5000);
+
+        // Script para o Carrinho de Compras
+        const cartItems = [];
+        const cartItemsList = document.getElementById('cart-items');
+        const cartLink = document.getElementById('carrinho-link');
+        const clearCartButton = document.getElementById('clear-cart');
+
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', () => {
+                const item = {
+                    name: button.getAttribute('data-item'),
+                    price: parseFloat(button.getAttribute('data-price')),
+                    img: button.getAttribute('data-img')
+                };
+                cartItems.push(item);
+                updateCart();
+            });
+        });
+
+        function updateCart() {
+            cartItemsList.innerHTML = '';
+            let total = 0;
+            cartItems.forEach((item, index) => {
+                const li = document.createElement('li');
+                li.innerHTML = `
+                    <div class="cart-item">
+                        <img src="${item.img}" alt="${item.name}" class="cart-img">
+                        <div class="cart-details">
+                            <p>${item.name}</p>
+                            <p>R$ ${item.price.toFixed(2)}</p>
+                            <button onclick="removeFromCart(${index})">Remover</button>
+                        </div>
+                    </div>
+                `;
+                cartItemsList.appendChild(li);
+                total += item.price;
+            });
+            if (cartItems.length === 0) {
+                cartItemsList.innerHTML = '<li>Seu carrinho está vazio.</li>';
+            } else {
+                const totalLi = document.createElement('li');
+                totalLi.innerHTML = `<strong>Total: R$ ${total.toFixed(2)}</strong>`;
+                cartItemsList.appendChild(totalLi);
+            }
+            cartLink.textContent = `Carrinho (${cartItems.length})`;
+        }
+
+        function removeFromCart(index) {
+            cartItems.splice(index, 1);
+            updateCart();
+        }
+
+        clearCartButton.addEventListener('click', () => {
+            cartItems.length = 0;
+            updateCart();
+        });
+
+        // Efeito ao passar o mouse sobre as imagens e textos do cardápio
+        const menuItems = document.querySelectorAll('.menu-item');
+
+        menuItems.forEach(item => {
+            item.addEventListener('mouseover', () => {
+                item.style.transform = 'scale(1.05)';
+                item.style.boxShadow = '0 0 15px rgba(0, 0, 0, 0.2)';
+            });
+
+            item.addEventListener('mouseout', () => {
+                item.style.transform = 'scale(1)';
+                item.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.1)';
+            });
+        });
+    </script>
+</body>
+</html>

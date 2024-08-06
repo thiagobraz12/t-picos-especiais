@@ -1,0 +1,243 @@
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho e Navegação */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seção Home */
+#home {
+    margin-top: 80px; /* Espaço para o cabeçalho fixo */
+    text-align: center;
+    padding: 20px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.banner img, .banner video {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.banner img:first-child, .banner video:first-child {
+    display: block;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    display: none;
+    pointer-events: none;
+}
+
+/* Centralizando Títulos */
+h1, h3 {
+    text-align: center;
+}
+
+/* Seção Quem Somos Nós */
+.fullscreen-image {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.fullscreen-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Seção Menu */
+#menu {
+    padding: 60px 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 20px;
+}
+
+.menu-item {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.menu-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-item h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.menu-item p {
+    color: #666;
+}
+
+.price {
+    font-size: 18px;
+    color: #28a745;
+    margin-top: 5px;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Seção Contato */
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    display: display-listitem;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Seção Carrinho */
+#carrinho {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#cart-items li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+}
+
+.cart-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.cart-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#clear-cart {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#clear-cart:hover {
+    background-color: #c82333;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+}
